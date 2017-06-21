@@ -1,0 +1,32 @@
+/* Unité de mesure utilisé : rem */
+/* General */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #262626;
+  font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-size: 1.6em;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+/* Button */
+.button, button, input[type='button'], input[type='reset'], input[type='submit'] {
+    background-color: #ABABAB;
+    border: 0.1rem solid #A1A1A1;
+    border-radius: 0.3rem;
+    color: #eee;
+    padding: 0 3rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 700;
+    height: 3.8rem;
+    letter-spacing: .1rem;
+    line-height: 3.8rem;
+}
+
